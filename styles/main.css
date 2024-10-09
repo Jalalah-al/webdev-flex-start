@@ -6,3 +6,9 @@ body{
 h1, h2{
     font-family: 'Raleway', sans-serif;
 }
+.container{
+    width:100%;	
+    margin:auto;
+    max-width: 1200px;
+    min-width: 600px;
+}
