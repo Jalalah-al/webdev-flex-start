@@ -1,68 +1,108 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Design courses // Cantor College</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div id="logo">
-          <h1>Design courses</h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="buisness.html">Information For Business</a></li>
-            <li><a href="computingcourses.html">Computing Courses</a></li>
-            <li><a href="designcourses.html">Design Courses</a></li>
-            <li><a href="learningresources.html">Learning Resources</ax</li>
-            <li><a href="informationforstaff.html">Staff</a></li>
-            <li><a href="infostudents.html">Students</a></li>
-            <li><a href="facilities.html">Facilities</a></li>
-          </ul>
-        </nav>
-      </header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Courses - Cantor College</title>
+    <link rel="stylesheet" href="designcourses.css">
+    <link rel ="icon" href="images/logo.webp" type="image/x-icon">
 
-      <div class="hero">
-        <video class = "videoBg"  autoplay muted loop>
-            <p> design courses</p>
-            <source src="institution.mp4" type= "video/mp4">
+    <script src="app.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.webp" alt="Cantor College Logo" width="100" height="100">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="computingcourses.html">Computing Courses</a></li>
+                    <li><a href="buisness.html">Information For Business</a></li>
+                    <li><a href="designcourses.html">Design Courses</a></li>
+                    <li><a href="learningresources.html">Learning Resources</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="informationforstaff.html">Staff</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="infostudents.html">Students</a></li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+        </div>
+    </header>
+
+    <div class="hero">
+        <video class="videoBg" autoplay muted loop aria-label="Background video of the college">
+            <source src="institution.mp4" type="video/mp4">
+            Your browser does not support the video tag.
         </video>
-   
-        <main >
-            <div class="box">
-                <h2>Our design Courses</h2>
-            
-                <p>The College is an internationally connected creative community of diverse disciplines housed under one roof. We shape our students' futures, preparing them to shape the world through applied knowledge and creativity.
-                    The College's art and design courses don't just train you, they promote alternative ways of thinking, making and communicating; they provide you with space, tools and inspiration to develop your creative practice and a clear career path. You'll get expert teaching from active practitioners and researchers who will encourage you to adopt innovative and resourceful approaches that both perceive and create opportunities for better lives.
-                    You’ll develop your creative practice whilst interacting with your peers in well-equipped studios, making and digital workshops. At the same time, you'll learn professional skills by working on applied briefs facilitated through our links with commercial clients, cultural institutions, businesses and organisations.
-                </p>
-            
-            </div>
-            <br>
-            <div class="box">
-                <h2>How to find us:</h2>
+        <div class="hero-content">
+            <h1>Welcome to Our Design Courses</h1>
+            <p>Your Gateway to Excellence in Education</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="image-gallery">
+            <img src="images/20230526_090718.jpg" alt="Design Studio" width="300" height="300" class="rounded-corners">
+            <img src="images/cantor-gallery.jpg" alt="Cantor Gallery" width="300" height="300" class="rounded-corners">
+            <img src="images/IMG_0170.jpeg" alt="Design Workshop" width="300" height="300" class="rounded-corners">
+        </div>
+
+        <div class="content-box">
+            <h2>Our Design Courses</h2>
+            <p>
+                The College is an internationally connected creative community of diverse disciplines housed under one roof. We shape our students' futures, preparing them to shape the world through applied knowledge and creativity.
+            </p>
+            <p>
+                The College's art and design courses don't just train you; they promote alternative ways of thinking, making, and communicating. They provide you with space, tools, and inspiration to develop your creative practice and a clear career path. You'll get expert teaching from active practitioners and researchers who will encourage you to adopt innovative and resourceful approaches that both perceive and create opportunities for better lives.
+            </p>
+            <p>
+                You’ll develop your creative practice whilst interacting with your peers in well-equipped studios, making and digital workshops. At the same time, you'll learn professional skills by working on applied briefs facilitated through our links with commercial clients, cultural institutions, businesses, and organizations.
+            </p>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
                 <p>
-                    Cantor College
-                    Main Street
-                    Sheffield
-                    SC4 2BB
-                    Tel:(01321) 2340 235
-                    Fax: (01321) 2340 236
-                    Email: info@cantorcollege.ac.uk</p>
+                    Cantor College<br>
+                    Main Street, Sheffield SC4 2BB<br>
+                    Tel: (01321) 2340 235<br>
+                    Fax: (01321) 2340 236<br>
+                    Email: <a href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a>
+                </p>
             </div>
-            </main>
-    
-    </div>
-    
-        <footer>
-            <div class="footerItems">
-                    <h3> &#169; Copyright </h3>
-                </div>
-        </footer>
-    </div>
-    </body>
-      
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="informationforstaff.html">Staff</a></li>
+                    <li><a href="infostudents.html">Students</a></li>
+                    <li><a href="computingcourses.html">Computing Courses</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="buisness.html">Information For Business</a></li>
+                    <li><a href="designcourses.html">Design Courses</a></li>
+                    <li><a href="learningresources.html">Learning Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Cantor College. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
